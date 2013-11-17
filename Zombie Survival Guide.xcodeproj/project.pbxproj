@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9275BC518396F730046F331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BC418396F730046F331 /* Foundation.framework */; };
+		C9275BC718396F730046F331 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BC618396F730046F331 /* CoreGraphics.framework */; };
+		C9275BC918396F740046F331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BC818396F740046F331 /* UIKit.framework */; };
+		C9275BCB18396F740046F331 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BCA18396F740046F331 /* CoreData.framework */; };
+		C9275BD118396F740046F331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9275BCF18396F740046F331 /* InfoPlist.strings */; };
+		C9275BD318396F740046F331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9275BD218396F740046F331 /* main.m */; };
+		C9275BD718396F740046F331 /* mattrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9275BD618396F740046F331 /* mattrAppDelegate.m */; };
+		C9275BDA18396F740046F331 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9275BD818396F740046F331 /* Main_iPhone.storyboard */; };
+		C9275BDD18396F740046F331 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9275BDB18396F740046F331 /* Main_iPad.storyboard */; };
+		C9275BE018396F740046F331 /* Zombie_Survival_Guide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9275BDE18396F740046F331 /* Zombie_Survival_Guide.xcdatamodeld */; };
+		C9275BE318396F740046F331 /* mattrMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9275BE218396F740046F331 /* mattrMasterViewController.m */; };
+		C9275BE618396F740046F331 /* mattrDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9275BE518396F740046F331 /* mattrDetailViewController.m */; };
+		C9275BE818396F740046F331 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9275BE718396F740046F331 /* Images.xcassets */; };
+		C9275BEF18396F740046F331 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BEE18396F740046F331 /* XCTest.framework */; };
+		C9275BF018396F740046F331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BC418396F730046F331 /* Foundation.framework */; };
+		C9275BF118396F740046F331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BC818396F740046F331 /* UIKit.framework */; };
+		C9275BF218396F740046F331 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9275BCA18396F740046F331 /* CoreData.framework */; };
+		C9275BFA18396F740046F331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9275BF818396F740046F331 /* InfoPlist.strings */; };
+		C9275BFC18396F740046F331 /* Zombie_Survival_GuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9275BFB18396F740046F331 /* Zombie_Survival_GuideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9275BF318396F740046F331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9275BB918396F730046F331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9275BC018396F730046F331;
+			remoteInfo = "Zombie Survival Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9275BC118396F730046F331 /* Zombie Survival Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Survival Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9275BC418396F730046F331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9275BC618396F730046F331 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9275BC818396F740046F331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9275BCA18396F740046F331 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9275BCE18396F740046F331 /* Zombie Survival Guide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zombie Survival Guide-Info.plist"; sourceTree = "<group>"; };
+		C9275BD018396F740046F331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9275BD218396F740046F331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9275BD418396F740046F331 /* Zombie Survival Guide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zombie Survival Guide-Prefix.pch"; sourceTree = "<group>"; };
+		C9275BD518396F740046F331 /* mattrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mattrAppDelegate.h; sourceTree = "<group>"; };
+		C9275BD618396F740046F331 /* mattrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mattrAppDelegate.m; sourceTree = "<group>"; };
+		C9275BD918396F740046F331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C9275BDC18396F740046F331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C9275BDF18396F740046F331 /* Zombie_Survival_Guide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zombie_Survival_Guide.xcdatamodel; sourceTree = "<group>"; };
+		C9275BE118396F740046F331 /* mattrMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mattrMasterViewController.h; sourceTree = "<group>"; };
+		C9275BE218396F740046F331 /* mattrMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mattrMasterViewController.m; sourceTree = "<group>"; };
+		C9275BE418396F740046F331 /* mattrDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mattrDetailViewController.h; sourceTree = "<group>"; };
+		C9275BE518396F740046F331 /* mattrDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mattrDetailViewController.m; sourceTree = "<group>"; };
+		C9275BE718396F740046F331 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9275BED18396F740046F331 /* Zombie Survival GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie Survival GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9275BEE18396F740046F331 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9275BF718396F740046F331 /* Zombie Survival GuideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zombie Survival GuideTests-Info.plist"; sourceTree = "<group>"; };
+		C9275BF918396F740046F331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9275BFB18396F740046F331 /* Zombie_Survival_GuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zombie_Survival_GuideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9275BBE18396F730046F331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9275BC718396F730046F331 /* CoreGraphics.framework in Frameworks */,
+				C9275BCB18396F740046F331 /* CoreData.framework in Frameworks */,
+				C9275BC918396F740046F331 /* UIKit.framework in Frameworks */,
+				C9275BC518396F730046F331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9275BEA18396F740046F331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9275BEF18396F740046F331 /* XCTest.framework in Frameworks */,
+				C9275BF218396F740046F331 /* CoreData.framework in Frameworks */,
+				C9275BF118396F740046F331 /* UIKit.framework in Frameworks */,
+				C9275BF018396F740046F331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9275BB818396F730046F331 = {
+			isa = PBXGroup;
+			children = (
+				C9275BCC18396F740046F331 /* Zombie Survival Guide */,
+				C9275BF518396F740046F331 /* Zombie Survival GuideTests */,
+				C9275BC318396F730046F331 /* Frameworks */,
+				C9275BC218396F730046F331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9275BC218396F730046F331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9275BC118396F730046F331 /* Zombie Survival Guide.app */,
+				C9275BED18396F740046F331 /* Zombie Survival GuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9275BC318396F730046F331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9275BC418396F730046F331 /* Foundation.framework */,
+				C9275BC618396F730046F331 /* CoreGraphics.framework */,
+				C9275BC818396F740046F331 /* UIKit.framework */,
+				C9275BCA18396F740046F331 /* CoreData.framework */,
+				C9275BEE18396F740046F331 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9275BCC18396F740046F331 /* Zombie Survival Guide */ = {
+			isa = PBXGroup;
+			children = (
+				C9275BD518396F740046F331 /* mattrAppDelegate.h */,
+				C9275BD618396F740046F331 /* mattrAppDelegate.m */,
+				C9275BD818396F740046F331 /* Main_iPhone.storyboard */,
+				C9275BDB18396F740046F331 /* Main_iPad.storyboard */,
+				C9275BE118396F740046F331 /* mattrMasterViewController.h */,
+				C9275BE218396F740046F331 /* mattrMasterViewController.m */,
+				C9275BE418396F740046F331 /* mattrDetailViewController.h */,
+				C9275BE518396F740046F331 /* mattrDetailViewController.m */,
+				C9275BE718396F740046F331 /* Images.xcassets */,
+				C9275BDE18396F740046F331 /* Zombie_Survival_Guide.xcdatamodeld */,
+				C9275BCD18396F740046F331 /* Supporting Files */,
+			);
+			path = "Zombie Survival Guide";
+			sourceTree = "<group>";
+		};
+		C9275BCD18396F740046F331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9275BCE18396F740046F331 /* Zombie Survival Guide-Info.plist */,
+				C9275BCF18396F740046F331 /* InfoPlist.strings */,
+				C9275BD218396F740046F331 /* main.m */,
+				C9275BD418396F740046F331 /* Zombie Survival Guide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9275BF518396F740046F331 /* Zombie Survival GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9275BFB18396F740046F331 /* Zombie_Survival_GuideTests.m */,
+				C9275BF618396F740046F331 /* Supporting Files */,
+			);
+			path = "Zombie Survival GuideTests";
+			sourceTree = "<group>";
+		};
+		C9275BF618396F740046F331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9275BF718396F740046F331 /* Zombie Survival GuideTests-Info.plist */,
+				C9275BF818396F740046F331 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9275BC018396F730046F331 /* Zombie Survival Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9275BFF18396F740046F331 /* Build configuration list for PBXNativeTarget "Zombie Survival Guide" */;
+			buildPhases = (
+				C9275BBD18396F730046F331 /* Sources */,
+				C9275BBE18396F730046F331 /* Frameworks */,
+				C9275BBF18396F730046F331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zombie Survival Guide";
+			productName = "Zombie Survival Guide";
+			productReference = C9275BC118396F730046F331 /* Zombie Survival Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9275BEC18396F740046F331 /* Zombie Survival GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9275C0218396F740046F331 /* Build configuration list for PBXNativeTarget "Zombie Survival GuideTests" */;
+			buildPhases = (
+				C9275BE918396F740046F331 /* Sources */,
+				C9275BEA18396F740046F331 /* Frameworks */,
+				C9275BEB18396F740046F331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9275BF418396F740046F331 /* PBXTargetDependency */,
+			);
+			name = "Zombie Survival GuideTests";
+			productName = "Zombie Survival GuideTests";
+			productReference = C9275BED18396F740046F331 /* Zombie Survival GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9275BB918396F730046F331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mattr;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Matt Reedman";
+				TargetAttributes = {
+					C9275BEC18396F740046F331 = {
+						TestTargetID = C9275BC018396F730046F331;
+					};
+				};
+			};
+			buildConfigurationList = C9275BBC18396F730046F331 /* Build configuration list for PBXProject "Zombie Survival Guide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9275BB818396F730046F331;
+			productRefGroup = C9275BC218396F730046F331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9275BC018396F730046F331 /* Zombie Survival Guide */,
+				C9275BEC18396F740046F331 /* Zombie Survival GuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9275BBF18396F730046F331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9275BDD18396F740046F331 /* Main_iPad.storyboard in Resources */,
+				C9275BE818396F740046F331 /* Images.xcassets in Resources */,
+				C9275BDA18396F740046F331 /* Main_iPhone.storyboard in Resources */,
+				C9275BD118396F740046F331 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9275BEB18396F740046F331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9275BFA18396F740046F331 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9275BBD18396F730046F331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9275BD318396F740046F331 /* main.m in Sources */,
+				C9275BE318396F740046F331 /* mattrMasterViewController.m in Sources */,
+				C9275BE618396F740046F331 /* mattrDetailViewController.m in Sources */,
+				C9275BE018396F740046F331 /* Zombie_Survival_Guide.xcdatamodeld in Sources */,
+				C9275BD718396F740046F331 /* mattrAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9275BE918396F740046F331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9275BFC18396F740046F331 /* Zombie_Survival_GuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9275BF418396F740046F331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9275BC018396F730046F331 /* Zombie Survival Guide */;
+			targetProxy = C9275BF318396F740046F331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9275BCF18396F740046F331 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9275BD018396F740046F331 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9275BD818396F740046F331 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9275BD918396F740046F331 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C9275BDB18396F740046F331 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9275BDC18396F740046F331 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C9275BF818396F740046F331 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9275BF918396F740046F331 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9275BFD18396F740046F331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9275BFE18396F740046F331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9275C0018396F740046F331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Survival Guide/Zombie Survival Guide-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Survival Guide/Zombie Survival Guide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9275C0118396F740046F331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Survival Guide/Zombie Survival Guide-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Survival Guide/Zombie Survival Guide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9275C0318396F740046F331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zombie Survival Guide.app/Zombie Survival Guide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Survival Guide/Zombie Survival Guide-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Zombie Survival GuideTests/Zombie Survival GuideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9275C0418396F740046F331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zombie Survival Guide.app/Zombie Survival Guide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Survival Guide/Zombie Survival Guide-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Survival GuideTests/Zombie Survival GuideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9275BBC18396F730046F331 /* Build configuration list for PBXProject "Zombie Survival Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9275BFD18396F740046F331 /* Debug */,
+				C9275BFE18396F740046F331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9275BFF18396F740046F331 /* Build configuration list for PBXNativeTarget "Zombie Survival Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9275C0018396F740046F331 /* Debug */,
+				C9275C0118396F740046F331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9275C0218396F740046F331 /* Build configuration list for PBXNativeTarget "Zombie Survival GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9275C0318396F740046F331 /* Debug */,
+				C9275C0418396F740046F331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9275BDE18396F740046F331 /* Zombie_Survival_Guide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9275BDF18396F740046F331 /* Zombie_Survival_Guide.xcdatamodel */,
+			);
+			currentVersion = C9275BDF18396F740046F331 /* Zombie_Survival_Guide.xcdatamodel */;
+			path = Zombie_Survival_Guide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9275BB918396F730046F331 /* Project object */;
+}
